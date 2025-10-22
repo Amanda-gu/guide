@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 
 :root{
@@ -44,15 +46,15 @@
 
 body {
     
-    line-height: 1.8rem;
-    font-family: "Quicksand", sans-serif;
+    line-height: 2rem;
+    font-family: "Space Mono", monospace;
     color: black;
-    background-color:rgb(224, 224, 224);
+    background-color:white;
 
     
 
     header{
-        background-color: rgb(34, 36, 36);
+        background-color: rgb(2, 2, 3);
         color: white;
 
         hgroup{
@@ -60,9 +62,9 @@ body {
             text-align: center;
 
             h1 {
-            font-size: 3rem;
+            font-size: 4rem;
             line-height: 4rem;
-            
+            font-family: "VT323", monospace;
             }
 
             p {
@@ -84,7 +86,7 @@ body {
     
     nav {
         padding-block: calc(var(--spacing)/4);
-        background-color: rgb(67, 69, 69);
+        background-color: blue;
         color: white;
         text-transform: uppercase;
         display: flex;
@@ -109,7 +111,7 @@ body {
         flex-direction: column;
         align-items: center;
         }   
-}
+        }       
 
 
     }
@@ -127,7 +129,7 @@ body {
             
             .block {
                 padding: calc(var(--spacing)/2);
-                background-color: #efefef;
+                background-color: #0000000f;
                 border-radius: 1rem;
  
                 .blocktitle{
@@ -150,7 +152,8 @@ body {
 
                     h3 {
                         font-weight: 600;
-                        text-transform: uppercase;padding-block-start: calc(var(--spacing)/2);;
+                        text-transform: uppercase;padding-block-start: calc(var(--spacing)/2);
+                        padding-block-end: calc(var(--spacing)/8);
                     }
 
                 
@@ -186,17 +189,19 @@ body {
             }     */
 
             
-            a{
-                color: black;
-            }
-            a:hover{
-                color: #0400ff;
-            }
+      
 
         }
         
         
-}
+main, footer{
+        a{
+                color: black;
+            }
+        a:hover{
+                color: #0400ff;
+            }
+} 
 
 
 
