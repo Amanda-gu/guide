@@ -45,12 +45,11 @@
 }
 
 body {
-    
+    text-wrap: balance;
     line-height: 2rem;
     font-family: "Space Mono", monospace;
     color: black;
     background-color:white;
-
     
 
     header{
