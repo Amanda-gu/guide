@@ -129,3 +129,7 @@ body {
 a:hover{
     color: #cfcfcf;
 }
+
+em {
+    font-style: italic;
+}
