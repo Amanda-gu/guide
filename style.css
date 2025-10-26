@@ -147,6 +147,10 @@ body {
                 font-size: var(--h2);
             }
 
+            .citation {
+                display: flex;
+                
+            }
 
         }
     }
